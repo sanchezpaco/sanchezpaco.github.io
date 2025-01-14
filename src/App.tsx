@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail, Code2, Terminal, Waves, PawPrint, PianoIcon, ScanSearch} from 'lucide-react';
+import { Github, Linkedin, Mail, Code2, Terminal, Waves, PawPrint, PianoIcon, ScanSearch, ContactIcon} from 'lucide-react';
 import Timeline from './components/Timeline';
 import SkillTag from './components/SkillTag';
 import Piano from './components/Piano';
@@ -35,6 +35,9 @@ function App() {
             </a>
             <a href="mailto:sanchezpaco3@gmail.com" className="text-gray-600 hover:text-blue-600">
               <Mail className="h-6 w-6" />
+            </a>
+            <a href="CV.pdf" title="CV" className="text-gray-600 hover:text-blue-600">
+              <ContactIcon className="h-6 w-6" />
             </a>
           </div>
         </div>
