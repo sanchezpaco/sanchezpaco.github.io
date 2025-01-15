@@ -2,6 +2,7 @@ import { Github, Linkedin, Mail, Code2, Terminal, Waves, PawPrint, PianoIcon, Sc
 import Timeline from './components/Timeline';
 import SkillTag from './components/SkillTag';
 import Piano from './components/Piano';
+import { BorderPulse } from './components/BorderPulse';
 
 function App() {
   return (
@@ -153,6 +154,7 @@ function App() {
       </section>
 
       <Piano />
+      <BorderPulse />
 
       <section id="contact" className="py-20 px-4 border-t border-gray-100">
         <div className="max-w-3xl mx-auto">
