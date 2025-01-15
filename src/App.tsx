@@ -103,12 +103,13 @@ function App() {
             
             <div>
               <h3 className="text-lg font-semibold mb-4 flex items-center">
-                <Terminal className="mr-2" /> Need to refresh 
+                <Terminal className="mr-2" /> Also worked with 
               </h3>
               <div className="flex flex-wrap gap-2">
                 <SkillTag name="Golang"/>
-                <SkillTag name="K8S"/>
                 <SkillTag name="Javascript"/>
+                <SkillTag name="C#"/>
+                <SkillTag name="K8S"/>
                 <SkillTag name="MongoDB"/>
                 <SkillTag name="MySQL"/>
                 <SkillTag name="Chef"/>
