@@ -58,7 +58,7 @@ function App() {
                 I’m an SRE focused on Developer Productivity and Platform Engineering, with over 8 years of experience building tools that help developers work smarter. I pride myself on being highly pragmatic, always prioritizing solutions that balance efficiency and impact. 
               </p>
               <p className="text-gray-600">
-                I love learning new things, whether it’s tech or something totally random. I even did a challenge where I created a game a week for 15 days straight. 
+                I love learning new things, whether it’s tech or something totally random. I even did a challenge where I created a game a week for 15 weeks straight. 
               </p>
               <p className="text-gray-600">
                 Outside of work, I’m usually swimming— it’s my favorite way to clear my mind and recharge.
