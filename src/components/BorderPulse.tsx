@@ -1,14 +1,14 @@
 import React, { useEffect, useState, useCallback } from 'react';
 
 const colors = [
-  'rgb(59, 130, 246)',   // blue
-  'rgb(16, 185, 129)',   // green
-  'rgb(236, 72, 153)',   // pink
-  'rgb(245, 158, 11)',   // amber
-  'rgb(139, 92, 246)',   // purple
-  'rgb(239, 68, 68)',    // red
-  'rgb(14, 165, 233)',   // sky
-  'rgb(168, 85, 247)',   // violet
+  'rgb(59, 130, 246)',
+  'rgb(16, 185, 129)',
+  'rgb(236, 72, 153)',
+  'rgb(245, 158, 11)',
+  'rgb(139, 92, 246)',
+  'rgb(239, 68, 68)',
+  'rgb(14, 165, 233)',
+  'rgb(168, 85, 247)',
 ] as const;
 
 export const BorderPulse: React.FC = () => {

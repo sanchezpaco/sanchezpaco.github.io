@@ -4,7 +4,8 @@ import * as Tone from 'tone';
 const Piano: React.FC = () => {
   const playNote = (note: string) => {
     const synth = new Tone.Synth().toDestination();
-    synth.triggerAttackRelease(note, '8n'); // '8n' is an eighth note duration
+    synth.volume.value = -10;
+    synth.triggerAttackRelease(note, '8n');
   };
 
   const handleKeyDown = (event: KeyboardEvent) => {
@@ -39,10 +40,8 @@ const Piano: React.FC = () => {
   };
 
   useEffect(() => {
-    // Add event listener for keydown
     window.addEventListener('keydown', handleKeyDown);
 
-    // Clean up event listener on component unmount
     return () => {
       window.removeEventListener('keydown', handleKeyDown);
     };
