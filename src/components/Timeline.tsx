@@ -43,7 +43,7 @@ const Timeline: React.FC = () => {
           <h3 className="text-lg font-semibold text-gray-900">{exp.title}</h3>
           <div className="text-gray-600 mb-2">{exp.company}</div>
           {exp.description.map((desc, index) => (
-            <p key={index} className="text-gray-600 mb-4">{desc}</p>
+            <p key={index} className="text-gray-600 mb-4 text-justify">{desc}</p>
           ))}
           <div className="flex flex-wrap gap-2">
             {exp.technologies.map((tech, techIndex) => (

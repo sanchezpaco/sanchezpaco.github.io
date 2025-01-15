@@ -54,16 +54,16 @@ function App() {
             />
             <div>
               <h2 className="text-2xl font-bold text-gray-900 mb-4">About</h2>
-              <p className="text-gray-600">
+              <p className="text-gray-600 text-justify">
                 I’m an SRE focused on Developer Productivity and Platform Engineering, with over 8 years of experience building tools that help developers work smarter. I pride myself on being highly pragmatic, always prioritizing solutions that balance efficiency and impact. 
               </p>
-              <p className="text-gray-600">
+              <p className="text-gray-600 text-justify">
                 I love learning new things, whether it’s tech or something totally random. I even did a challenge where I created a game a week for 15 weeks straight. 
               </p>
-              <p className="text-gray-600">
+              <p className="text-gray-600 text-justify">
                 Outside of work, I’m usually swimming— it’s my favorite way to clear my mind and recharge.
               </p>
-              <p className="text-gray-600">
+              <p className="text-gray-600 text-justify">
                 Oh, and fun fact: my right thumb is actually my toe. Yes, it’s as weird as it sounds, but I like to think I can give "Super Likes".
               </p>
             </div>
