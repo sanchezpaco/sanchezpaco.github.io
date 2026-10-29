@@ -3,11 +3,18 @@ import React from 'react';
 const Timeline: React.FC = () => {
   const experiences = [
     {
-      period: '2022 - Present',
+      period: 'Jul 2026 - Present',
+      title: 'Senior Software Engineer - Cloud Operations',
+      company: 'DuckDuckGo',
+      description: [],
+      technologies: []
+    },
+    {
+      period: '2022 - 2026',
       title: 'Senior Site Reliability Engineer - Platform Engineering',
       company: 'Flywire',
       description: [
-        "I continue to work on the Victoria idP, which is designed with cloud best practices like scalability, high availability, observability, and operability. I enhance it by adding OpenTelemetry for platform insights, implementing testing approaches like canary releases, and using DORA metrics to improve performance.",
+        "I worked on the Victoria idP, which is designed with cloud best practices like scalability, high availability, observability, and operability. I enhanced it by adding OpenTelemetry for platform insights, implementing testing approaches like canary releases, and using DORA metrics to improve performance.",
         "Here's an idea of Victoria's impact: previously, we deployed to production 2-3 times a day. Now, with teams operating at full autonomy, we've scaled up to 40-50 production releases daily, along with approximately 500 deployments to development environments each day."
       ],
       technologies: ['Ruby', 'AWS', 'ECS', 'Terraform', 'OTEL', 'CI/CD', 'Python', 'GCP', 'Honeycomb']
